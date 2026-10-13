@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS barangay_security CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE barangay_security;
+CREATE DATABASE IF NOT EXISTS barangay_security_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE barangay_security_db;
 
 CREATE TABLE IF NOT EXISTS users (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
